@@ -1,5 +1,5 @@
 import pytest
-from exercises.pop_first import LinkedList
+from exercises.linked_list.pop_first import LinkedList
 
 @pytest.mark.parametrize("initial_value, append_values, expected_pop_value, expected_length_after_pop, expected_head_value_after_pop", [
     (1, [2, 3], 1, 2, 2),

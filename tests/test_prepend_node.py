@@ -1,5 +1,5 @@
 import pytest
-from exercises.prepend_node import LinkedList
+from exercises.linked_list.prepend_node import LinkedList
 
 
 @pytest.mark.parametrize("initial_value, append_values, prepend_value, expected_head_value_after_prepend, expected_length_after_prepend", [

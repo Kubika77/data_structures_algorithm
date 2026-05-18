@@ -1,5 +1,5 @@
 import pytest
-from exercises.LL_constructor import Node, LinkedList
+from exercises.linked_list.LL_constructor import Node, LinkedList
 
 
 
